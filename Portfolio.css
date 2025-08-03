@@ -1,0 +1,108 @@
+Portfolio.css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.navbar {
+    background: #222;
+    color: white;
+    padding: 15px 20px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #00bcd4;
+}
+
+header {
+    background: #1a1a2e;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+header img {
+    width: 160px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    background: #00bcd4;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #0097a7;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+    background: white;
+    margin-top: 10px;
+}
+
+.section h2 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 16px;
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
